@@ -2,10 +2,6 @@
     # Anna LaPrade (alaprade@bu.edu)
     # UI/UX Design by Anna LaPrade (alaprade@bu.edu)     
 
-# Notes for Members:
-    # Check you're using Python 3.2 (minimum) and that you've got pip
-    # Have you installed requirements.txt? (run pip install -r requirements.txt)
-    # Do NOT run further that Python 3.12, kivy does not have 3.13 support yet as of 11/16
 
 # This configures kivy logs (interferes with Backend logs without this)
 import os

@@ -230,6 +230,10 @@ class DataLogger:
 
         Parameters:
             fileName (str): The name of the file to be created.
+
+        NOTE:
+            File is always created in this method. A file cannot exist because the file path
+            is within the parent directory, which is created new every time the code runs.
         '''
 
         filePath = os.path.join(self.childDirectoryPath, fileName)

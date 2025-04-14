@@ -5,6 +5,10 @@
 NOTE: To run individual files from this repo, you must do the following
 
 1. Make sure you have a virtual environment with requirements.txt installed
+    Notes for Members:
+    Check you're using Python 3.2 (minimum) and that you've got pip
+    Have you installed requirements.txt? (run pip install -r requirements.txt)
+    Do NOT run further that Python 3.12, kivy does not have 3.13 support yet as of 11/16
 2. Use the following command structure EX: python -m Backend.tests.datalogger_test
 
 '''

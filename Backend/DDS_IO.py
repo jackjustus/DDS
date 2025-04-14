@@ -119,7 +119,7 @@ class DDS_IO:
         if device is None:
             # Log the mistake and return.
             self.__log(f'Device {device_key} not found. (Data Req: {param_key})', DataLogger.LogSeverity.DEBUG, caller)
-            return "UKNDEV"
+            return "UKNDEV" # Unknown device
         
 
         # 2) If the device is not active, we can return early

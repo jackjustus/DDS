@@ -9,9 +9,6 @@ This module defines classes to monitor values from the DDS_IO system. Signals ca
 range in the valuelimits.json file. The ParameterMonitor class observes these signals and logs a 
 warning if any value falls outside the given constraint.
 
-TODO:
-    - Add support for different limits based on different driving modes.
-
 Classes:
     ParameterWarning: Represents a warning for a parameter that is out of range.
     ParameterMonitor: Monitors parameters and raises warnings if values are out of range.
